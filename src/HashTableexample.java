@@ -14,6 +14,8 @@ public class HashTableexample {
 		htable.put("State","Andrapradesh");
 		htable.put("Educaton","Graduate");
 		
+		
+		
 		System.out.println(htable.get("city"));
 		System.out.println(htable.get("Firstname"));
 		
@@ -31,7 +33,14 @@ public class HashTableexample {
         HashMap<String,String> hmap = new HashMap<String,String>();
         
         hmap.put("city","Hyderabad");
+		hmap.put("Firstname", "anilkumar");
+		hmap.put("Lastname", "gulla");
+		hmap.put("State","Andrapradesh");
+		hmap.put("Educaton","Graduate");
         System.out.println(hmap.get("city"));
+        for (String key :hmap.keySet()) {
+        	System.out.println("key: "+key+"   value: "+hmap.get(key));
+        }
         
 	}
 
