@@ -21,8 +21,8 @@ public class HashsetExample {
       
       while (itr.hasNext()) {
     	 System.out.println(itr.next());
-    	 //for (int i=0 ; i< str.size();i++) {
-    	//	 System.out.println(str.get(i));
+    	// for (int i=0 ; i< str.size();i++) {
+    	//	 System.out.println(itr.get(i));
     	 }
       
       
