@@ -14,6 +14,7 @@ public class Treemapexample {
 		treemap1.put("Name", "Anilkumar");
 		treemap1.put("City", "Guntur");
 		treemap1.put("education", "Graduation");
+		
 		System.out.println(treemap1);
 		
 		
