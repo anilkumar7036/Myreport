@@ -20,7 +20,7 @@ public class Mouseactions {
      Properties prop = new Properties();
 	prop.load(fis);
 	
-	System.setProperty("webdriver.chrome.driver", "C:\\Users\\HP\\OneDrive\\Documents\\selnium dowloads\\webdrivers\\chromedriver_win32\\chromedriver.exe");
+	System.setProperty("webdriver.chrome.driver", "C:\\drivers\\chromedriver_win32\\chromedriver.exe");
 	
 	WebDriver driver = new ChromeDriver();
 	
